@@ -1,0 +1,17 @@
+{
+  "budget": 2,
+  "low": 0,
+  "high": 100,
+  "bad_name_code": "E_BAD_NAME",
+  "bad_value_code": "E_BAD_VALUE",
+  "no_name_code": "E_NO_NAME",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "table": [], "shown": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "put", "name": "a", "value": 150 },
+    { "id": 2, "kind": "put", "name": "a", "value": -5 },
+    { "id": 3, "kind": "put", "name": "b", "value": 60 },
+    { "id": 4, "kind": "show", "name": "a" },
+    { "id": 5, "kind": "show", "name": "b" }
+  ]
+}
